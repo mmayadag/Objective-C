@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		407EF44024000C91009BD071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 407EF43F24000C91009BD071 /* main.m */; };
+		40AAE39A240D42BC003DEACB /* if-condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE399240D42BC003DEACB /* if-condition.m */; };
+		40AAE39F240D4AE0003DEACB /* calculateSeconds.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE39E240D4AE0003DEACB /* calculateSeconds.m */; };
+		40AAE3A3240D4DAC003DEACB /* printStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE3A2240D4DAC003DEACB /* printStrings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		407EF43C24000C90009BD071 /* Objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		407EF43F24000C91009BD071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40AAE399240D42BC003DEACB /* if-condition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "if-condition.m"; sourceTree = "<group>"; };
+		40AAE39B240D4409003DEACB /* if-condition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "if-condition.h"; sourceTree = "<group>"; };
+		40AAE39E240D4AE0003DEACB /* calculateSeconds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculateSeconds.m; sourceTree = "<group>"; };
+		40AAE3A0240D4AEE003DEACB /* calculateSeconds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculateSeconds.h; sourceTree = "<group>"; };
+		40AAE3A2240D4DAC003DEACB /* printStrings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printStrings.m; sourceTree = "<group>"; };
+		40AAE3A4240D4DE0003DEACB /* printStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printStrings.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +66,39 @@
 		407EF43E24000C90009BD071 /* Objective-c */ = {
 			isa = PBXGroup;
 			children = (
+				40AAE3A1240D4D93003DEACB /* printStrings */,
+				40AAE39C240D4AAC003DEACB /* if-condition */,
+				40AAE39D240D4ABC003DEACB /* calculateSeconds */,
 				407EF43F24000C91009BD071 /* main.m */,
 			);
 			path = "Objective-c";
+			sourceTree = "<group>";
+		};
+		40AAE39C240D4AAC003DEACB /* if-condition */ = {
+			isa = PBXGroup;
+			children = (
+				40AAE399240D42BC003DEACB /* if-condition.m */,
+				40AAE39B240D4409003DEACB /* if-condition.h */,
+			);
+			path = "if-condition";
+			sourceTree = "<group>";
+		};
+		40AAE39D240D4ABC003DEACB /* calculateSeconds */ = {
+			isa = PBXGroup;
+			children = (
+				40AAE39E240D4AE0003DEACB /* calculateSeconds.m */,
+				40AAE3A0240D4AEE003DEACB /* calculateSeconds.h */,
+			);
+			path = calculateSeconds;
+			sourceTree = "<group>";
+		};
+		40AAE3A1240D4D93003DEACB /* printStrings */ = {
+			isa = PBXGroup;
+			children = (
+				40AAE3A2240D4DAC003DEACB /* printStrings.m */,
+				40AAE3A4240D4DE0003DEACB /* printStrings.h */,
+			);
+			path = printStrings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AAE3A3240D4DAC003DEACB /* printStrings.m in Sources */,
+				40AAE39A240D42BC003DEACB /* if-condition.m in Sources */,
 				407EF44024000C91009BD071 /* main.m in Sources */,
+				40AAE39F240D4AE0003DEACB /* calculateSeconds.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

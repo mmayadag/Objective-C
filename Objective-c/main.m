@@ -7,11 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "if-condition/if-condition.h"
+#import "calculateSeconds/calculateSeconds.h"
+#import "printStrings/printStrings.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        printHelloWorld();
+        printString(@"Murat");
+        calculateSeconds();
+        
+        //bool notRecomended = true;
+        BOOL isThisTheRightWay = YES;
+        
+        if( isThisTheRightWay ){
+            ifcondition();
+        }
     }
     return 0;
 }
+
