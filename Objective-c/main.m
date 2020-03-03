@@ -10,6 +10,7 @@
 #import "if-condition/if-condition.h"
 #import "calculateSeconds/calculateSeconds.h"
 #import "printStrings/printStrings.h"
+#import "Enums/FieldType.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -23,6 +24,7 @@ int main(int argc, const char * argv[]) {
         if( isThisTheRightWay ){
             ifcondition();
         }
+        printAllFieldTypeEnums();
     }
     return 0;
 }
