@@ -27,6 +27,8 @@ int main(int argc, const char * argv[]) {
             ifcondition();
         }
         printAllFieldTypeEnums();
+        
+        todayDate();
     }
     return 0;
 }
