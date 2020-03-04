@@ -12,6 +12,11 @@ void printHelloWorld(){
     NSLog(@"Hello, World!");
     const NSString *str = @"Murat";
     NSLog(@"%@", str);
+    
+    NSString* firstWord = @"first-word"; // asterix dosen't matter where is
+    
+    NSString* pointerString; // declaring
+    pointerString = @"pointed string"; // defining
 }
 
 void printString(NSString* str ){
