@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+void initDateClass(){
+    NSDate *myObj = [[NSDate alloc] init];
+    NSLog(@"Loging date: %@" , [myObj description]);
+}
+
 NSString* todayDate(){
     NSDate *today = [NSDate date];
     NSLog(@"The new NSDate object is: %@",today);
@@ -15,6 +20,10 @@ NSString* todayDate(){
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"dd-MM-YYYY HH:mm:ss"];
     NSString *dateString = [dateFormatter stringFromDate:today];
-
+    
+    initDateClass();
+    
     return dateString;
 }
+
+
