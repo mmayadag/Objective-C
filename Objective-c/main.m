@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
         printString(@"Murat");
         calculateSeconds();
         
+        
         //bool notRecomended = true;
         BOOL isThisTheRightWay = YES;
         
