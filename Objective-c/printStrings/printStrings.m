@@ -8,10 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+void passingPointer(NSString* xStr){
+    NSLog(@"The variable you passed in was %@", xStr );
+}
+
 void printHelloWorld(){
     NSLog(@"Hello, World!");
     const NSString *str = @"Murat";
     NSLog(@"%@", str);
+    
+    NSString* firstWord = @"first-word"; // asterix dosen't matter where is
+    
+    NSString* pointerString; // declaring
+    pointerString = @"pOINTER string"; // defining
+    
+    passingPointer(pointerString);
 }
 
 void printString(NSString* str ){

@@ -11,12 +11,14 @@
 #import "calculateSeconds/calculateSeconds.h"
 #import "printStrings/printStrings.h"
 #import "Enums/FieldType.h"
+#import "Objects/TitleObject.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         printHelloWorld();
         printString(@"Murat");
         calculateSeconds();
+        
         
         //bool notRecomended = true;
         BOOL isThisTheRightWay = YES;
@@ -25,6 +27,8 @@ int main(int argc, const char * argv[]) {
             ifcondition();
         }
         printAllFieldTypeEnums();
+        
+        todayDate();
     }
     return 0;
 }
