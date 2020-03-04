@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404FA2ED240FC14300222D6C /* TitleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 404FA2EC240FC14300222D6C /* TitleObject.m */; };
 		407EF44024000C91009BD071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 407EF43F24000C91009BD071 /* main.m */; };
 		40AAE39A240D42BC003DEACB /* if-condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE399240D42BC003DEACB /* if-condition.m */; };
 		40AAE39F240D4AE0003DEACB /* calculateSeconds.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE39E240D4AE0003DEACB /* calculateSeconds.m */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		404FA2EC240FC14300222D6C /* TitleObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleObject.m; sourceTree = "<group>"; };
+		404FA2EE240FC90F00222D6C /* TitleObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleObject.h; sourceTree = "<group>"; };
 		407EF43C24000C90009BD071 /* Objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		407EF43F24000C91009BD071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40AAE399240D42BC003DEACB /* if-condition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "if-condition.m"; sourceTree = "<group>"; };
@@ -50,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		404FA2EB240FC12D00222D6C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				404FA2EC240FC14300222D6C /* TitleObject.m */,
+				404FA2EE240FC90F00222D6C /* TitleObject.h */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		407EF43324000C90009BD071 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +81,7 @@
 		407EF43E24000C90009BD071 /* Objective-c */ = {
 			isa = PBXGroup;
 			children = (
+				404FA2EB240FC12D00222D6C /* Objects */,
 				40FA523C240E328200E3BECC /* Enums */,
 				40AAE3A1240D4D93003DEACB /* printStrings */,
 				40AAE39C240D4AAC003DEACB /* if-condition */,
@@ -173,6 +186,7 @@
 			files = (
 				40AAE3A3240D4DAC003DEACB /* printStrings.m in Sources */,
 				40AAE39A240D42BC003DEACB /* if-condition.m in Sources */,
+				404FA2ED240FC14300222D6C /* TitleObject.m in Sources */,
 				407EF44024000C91009BD071 /* main.m in Sources */,
 				40AAE39F240D4AE0003DEACB /* calculateSeconds.m in Sources */,
 				40FA523B240E323600E3BECC /* FieldType.m in Sources */,

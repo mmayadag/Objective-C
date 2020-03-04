@@ -11,6 +11,7 @@
 #import "calculateSeconds/calculateSeconds.h"
 #import "printStrings/printStrings.h"
 #import "Enums/FieldType.h"
+#import "Objects/TitleObject.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
