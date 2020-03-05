@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MyDate/MyDate.h"
 
 void initDateClass(){
-    NSDate *myObj = [[NSDate alloc] init];
+    // allocation new class
+    NSDate *myObj = [[NSDate alloc] init]; // alloc init class
     NSLog(@"Loging date: %@" , [myObj description]);
 }
 
@@ -22,6 +24,9 @@ NSString* todayDate(){
     NSString *dateString = [dateFormatter stringFromDate:today];
     
     initDateClass();
+    
+    // NSDate alloc init methods
+    MyDateMethods();
     
     return dateString;
 }
