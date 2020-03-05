@@ -19,6 +19,8 @@ void printHelloWorld(){
     
     NSString* firstWord = @"first-word"; // asterix dosen't matter where is
     
+    [firstWord uppercaseString]; // String uppercased for supressing buildtime not used variable error
+    
     NSString* pointerString; // declaring
     pointerString = @"pOINTER string"; // defining
     
