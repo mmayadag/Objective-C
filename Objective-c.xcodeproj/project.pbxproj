@@ -13,6 +13,7 @@
 		40AAE39A240D42BC003DEACB /* if-condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE399240D42BC003DEACB /* if-condition.m */; };
 		40AAE39F240D4AE0003DEACB /* calculateSeconds.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE39E240D4AE0003DEACB /* calculateSeconds.m */; };
 		40AAE3A3240D4DAC003DEACB /* printStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE3A2240D4DAC003DEACB /* printStrings.m */; };
+		40E2C96924110ACB00BEC293 /* MyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E2C96824110ACB00BEC293 /* MyDate.m */; };
 		40FA523B240E323600E3BECC /* FieldType.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FA523A240E323600E3BECC /* FieldType.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		40AAE3A0240D4AEE003DEACB /* calculateSeconds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculateSeconds.h; sourceTree = "<group>"; };
 		40AAE3A2240D4DAC003DEACB /* printStrings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printStrings.m; sourceTree = "<group>"; };
 		40AAE3A4240D4DE0003DEACB /* printStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printStrings.h; sourceTree = "<group>"; };
+		40B851A824110DA400AB2CDD /* MyDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDate.h; sourceTree = "<group>"; };
+		40E2C96824110ACB00BEC293 /* MyDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDate.m; sourceTree = "<group>"; };
 		40FA523A240E323600E3BECC /* FieldType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FieldType.m; sourceTree = "<group>"; };
 		40FA523D240E329500E3BECC /* FieldType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FieldType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +66,7 @@
 				404FA2EE240FC90F00222D6C /* TitleObject.h */,
 				40271137240FF4DE0037679F /* Today.m */,
 				40271139240FF57C0037679F /* Today.h */,
+				40B851A924110DB600AB2CDD /* MyDate */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -123,6 +127,15 @@
 			path = printStrings;
 			sourceTree = "<group>";
 		};
+		40B851A924110DB600AB2CDD /* MyDate */ = {
+			isa = PBXGroup;
+			children = (
+				40E2C96824110ACB00BEC293 /* MyDate.m */,
+				40B851A824110DA400AB2CDD /* MyDate.h */,
+			);
+			path = MyDate;
+			sourceTree = "<group>";
+		};
 		40FA523C240E328200E3BECC /* Enums */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +171,7 @@
 		407EF43424000C90009BD071 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Murat Mayadağ";
 				TargetAttributes = {
 					407EF43B24000C90009BD071 = {
@@ -196,6 +209,7 @@
 				40271138240FF4DE0037679F /* Today.m in Sources */,
 				40AAE39F240D4AE0003DEACB /* calculateSeconds.m in Sources */,
 				40FA523B240E323600E3BECC /* FieldType.m in Sources */,
+				40E2C96924110ACB00BEC293 /* MyDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +328,7 @@
 		407EF44424000C91009BD071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -322,6 +337,7 @@
 		407EF44524000C91009BD071 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
