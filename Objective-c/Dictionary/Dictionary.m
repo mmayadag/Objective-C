@@ -17,7 +17,15 @@ void dictionaryCities(){
     
     NSLog(@"izmir : %@",[Cities objectForKey:@"izmir"]);
     NSLog(@"İSTANBUL : %@", Cities[@"istanbul"]);
-
+    
+    
+    // key - value
+    // reverse of alloc initWithObjectsAndKeys
+    NSDictionary *CitiesQuicker = @{
+        @"35":@"izmir",
+        @"34":@"istanbul",
+        @"06":@"ankara"
+    };
     
     NSMutableDictionary *CityPhoneCodes = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
                             @"232",@"izmir",
