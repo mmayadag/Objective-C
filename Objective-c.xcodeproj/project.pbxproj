@@ -13,7 +13,10 @@
 		40AAE39A240D42BC003DEACB /* if-condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE399240D42BC003DEACB /* if-condition.m */; };
 		40AAE39F240D4AE0003DEACB /* calculateSeconds.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE39E240D4AE0003DEACB /* calculateSeconds.m */; };
 		40AAE3A3240D4DAC003DEACB /* printStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AAE3A2240D4DAC003DEACB /* printStrings.m */; };
+		40B851AD24112ACF00AB2CDD /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B851AC24112ACF00AB2CDD /* Employee.m */; };
+		40B851B3241133CC00AB2CDD /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B851B2241133CC00AB2CDD /* Calculator.m */; };
 		40E2C96924110ACB00BEC293 /* MyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E2C96824110ACB00BEC293 /* MyDate.m */; };
+		40EE9A912415A11700D234A7 /* Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EE9A902415A11700D234A7 /* Dictionary.m */; };
 		40FA523B240E323600E3BECC /* FieldType.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FA523A240E323600E3BECC /* FieldType.m */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +46,13 @@
 		40AAE3A2240D4DAC003DEACB /* printStrings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printStrings.m; sourceTree = "<group>"; };
 		40AAE3A4240D4DE0003DEACB /* printStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printStrings.h; sourceTree = "<group>"; };
 		40B851A824110DA400AB2CDD /* MyDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDate.h; sourceTree = "<group>"; };
+		40B851AB24112ACF00AB2CDD /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		40B851AC24112ACF00AB2CDD /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		40B851B1241133CC00AB2CDD /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		40B851B2241133CC00AB2CDD /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		40E2C96824110ACB00BEC293 /* MyDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDate.m; sourceTree = "<group>"; };
+		40EE9A902415A11700D234A7 /* Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dictionary.m; sourceTree = "<group>"; };
+		40EE9A922415A26B00D234A7 /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
 		40FA523A240E323600E3BECC /* FieldType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FieldType.m; sourceTree = "<group>"; };
 		40FA523D240E329500E3BECC /* FieldType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FieldType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +99,8 @@
 		407EF43E24000C90009BD071 /* Objective-c */ = {
 			isa = PBXGroup;
 			children = (
+				40EE9A8F2415A0F900D234A7 /* Dictionary */,
+				40B851AF241131A900AB2CDD /* Classes */,
 				404FA2EB240FC12D00222D6C /* Objects */,
 				40FA523C240E328200E3BECC /* Enums */,
 				40AAE3A1240D4D93003DEACB /* printStrings */,
@@ -134,6 +145,42 @@
 				40B851A824110DA400AB2CDD /* MyDate.h */,
 			);
 			path = MyDate;
+			sourceTree = "<group>";
+		};
+		40B851AE24112ADE00AB2CDD /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				40B851AB24112ACF00AB2CDD /* Employee.h */,
+				40B851AC24112ACF00AB2CDD /* Employee.m */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		40B851AF241131A900AB2CDD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40B851B0241133A600AB2CDD /* Calculator */,
+				40B851AE24112ADE00AB2CDD /* Employee */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		40B851B0241133A600AB2CDD /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				40B851B1241133CC00AB2CDD /* Calculator.h */,
+				40B851B2241133CC00AB2CDD /* Calculator.m */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		40EE9A8F2415A0F900D234A7 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				40EE9A902415A11700D234A7 /* Dictionary.m */,
+				40EE9A922415A26B00D234A7 /* Dictionary.h */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 		40FA523C240E328200E3BECC /* Enums */ = {
@@ -208,8 +255,11 @@
 				407EF44024000C91009BD071 /* main.m in Sources */,
 				40271138240FF4DE0037679F /* Today.m in Sources */,
 				40AAE39F240D4AE0003DEACB /* calculateSeconds.m in Sources */,
+				40B851AD24112ACF00AB2CDD /* Employee.m in Sources */,
 				40FA523B240E323600E3BECC /* FieldType.m in Sources */,
 				40E2C96924110ACB00BEC293 /* MyDate.m in Sources */,
+				40EE9A912415A11700D234A7 /* Dictionary.m in Sources */,
+				40B851B3241133CC00AB2CDD /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
