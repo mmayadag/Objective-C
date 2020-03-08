@@ -18,4 +18,13 @@ void dictionaryCities(){
     NSLog(@"izmir : %@",[Cities objectForKey:@"izmir"]);
     NSLog(@"İSTANBUL : %@", Cities[@"istanbul"]);
 
+    
+    NSMutableDictionary *CityPhoneCodes = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
+                            @"232",@"izmir",
+                            @"236",@"ankara", nil];
+    [CityPhoneCodes setValue:@"212" forKey:@"istanbul"];
+    // value - key
+    
+    NSLog(@"Phone-code izmir : %@",[CityPhoneCodes objectForKey:@"izmir"]);
+    NSLog(@"Phone-code İSTANBUL : %@", CityPhoneCodes[@"istanbul"]);
 }
