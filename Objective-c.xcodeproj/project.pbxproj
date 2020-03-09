@@ -17,6 +17,7 @@
 		40B851B3241133CC00AB2CDD /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B851B2241133CC00AB2CDD /* Calculator.m */; };
 		40E2C96924110ACB00BEC293 /* MyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E2C96824110ACB00BEC293 /* MyDate.m */; };
 		40EE9A912415A11700D234A7 /* Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EE9A902415A11700D234A7 /* Dictionary.m */; };
+		40EE9A94241613EA00D234A7 /* ClassExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EE9A93241613EA00D234A7 /* ClassExamples.m */; };
 		40FA523B240E323600E3BECC /* FieldType.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FA523A240E323600E3BECC /* FieldType.m */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		40E2C96824110ACB00BEC293 /* MyDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDate.m; sourceTree = "<group>"; };
 		40EE9A902415A11700D234A7 /* Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dictionary.m; sourceTree = "<group>"; };
 		40EE9A922415A26B00D234A7 /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		40EE9A93241613EA00D234A7 /* ClassExamples.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassExamples.m; sourceTree = "<group>"; };
+		40EE9A952416140900D234A7 /* ClassExamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassExamples.h; sourceTree = "<group>"; };
 		40FA523A240E323600E3BECC /* FieldType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FieldType.m; sourceTree = "<group>"; };
 		40FA523D240E329500E3BECC /* FieldType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FieldType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +164,8 @@
 			children = (
 				40B851B0241133A600AB2CDD /* Calculator */,
 				40B851AE24112ADE00AB2CDD /* Employee */,
+				40EE9A93241613EA00D234A7 /* ClassExamples.m */,
+				40EE9A952416140900D234A7 /* ClassExamples.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				40E2C96924110ACB00BEC293 /* MyDate.m in Sources */,
 				40EE9A912415A11700D234A7 /* Dictionary.m in Sources */,
 				40B851B3241133CC00AB2CDD /* Calculator.m in Sources */,
+				40EE9A94241613EA00D234A7 /* ClassExamples.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
