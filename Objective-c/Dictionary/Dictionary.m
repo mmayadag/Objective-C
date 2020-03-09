@@ -26,6 +26,7 @@ void dictionaryCities(){
         @"34":@"istanbul",
         @"06":@"ankara"
     };
+    NSLog(@"quick NSDictionary create count: %lu",(unsigned long)[CitiesQuicker count]);
     
     NSMutableDictionary *CityPhoneCodes = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
                             @"232",@"izmir",
