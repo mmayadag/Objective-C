@@ -1,2 +1,4 @@
 # Objective-C
-Objective-c examples created for basics
+Declaration. Methods. Class Constructor. Create A New Instance. Access Object Property. Call Object Methods. @property And @synthesize.
+
+Syntactic sugar.
